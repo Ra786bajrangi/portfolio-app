@@ -36,7 +36,7 @@ const Hero = () => {
           transition={{ delay: 0.5 }}
         >
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/Ra786bajrangi"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-400 transition"

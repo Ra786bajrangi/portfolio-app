@@ -8,7 +8,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/Ra786bajrangi"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-400 transition"

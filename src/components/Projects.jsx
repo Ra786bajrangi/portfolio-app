@@ -24,6 +24,7 @@ const projects = [
       "A tree plantation tracking platform with weather comparison charts, leaderboards, maps, and user profiles. Admins can assign planting goals, and users can log plantations and view rankings.",
     tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB Atlas", "JWT", "Visual Crossing API"],
     live: "https://green-plantation-dashboard.vercel.app",
+  
     github: "https://github.com/Ra786bajrangi/green-plantation-dashboard",
   },
   {
@@ -31,7 +32,8 @@ const projects = [
   description:
     "A responsive eCommerce frontend built with React and Bootstrap featuring product listings, cart functionality using Redux, and Stripe Checkout integration. Designed for seamless payment experience without a backend.",
   tech: ["React", "Redux", "Bootstrap", "Stripe"],
-  live: "https://your-stripe-shop.vercel.app",
+  live: "https://ecommerce-stripe-app-eight.vercel.app",
+  
   github: "https://github.com/Ra786bajrangi/ecommerce-stripe-app",
 }
 

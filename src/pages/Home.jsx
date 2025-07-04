@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import image3 from "../assets/image3.jpg"
 const Home = () => {
   return (
     <section
@@ -9,7 +9,7 @@ const Home = () => {
     >
       <div className="text-center p-6 max-w-3xl">
         <motion.img
-          src="/assets/profile.png"
+          src={image3}
           alt="Profile"
           className="mx-auto w-32 h-32 rounded-full border-4 border-white mb-6"
           initial={{ scale: 0 }}
@@ -61,7 +61,7 @@ const Home = () => {
           animate={{ scale: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Ra786bajrangi" target="_blank" rel="noreferrer">
             <FaGithub className="hover:text-gray-300" />
           </a>
           <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">
