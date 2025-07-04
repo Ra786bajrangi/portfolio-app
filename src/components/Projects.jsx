@@ -7,7 +7,7 @@ const projects = [
     description:
       "A full-stack web app to upload Excel files and visualize data using 2D/3D charts with Plotly and Three.js. Users can select chart types, axes, and download charts. Includes secure login, upload history, and admin management.",
     tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB Atlas", "JWT", "Plotly", "Three.js"],
-    live: "https://your-excel-app.vercel.app",
+    live: "https://excel-plotiply-app.vercel.app",
     github: "https://github.com/Ra786bajrangi/excel-plotiply-app",
   },
   {
