@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import {  FaGithub, FaEnvelope } from "react-icons/fa";
 import confetti from "canvas-confetti";
 
 const Contact = () => {
@@ -15,17 +15,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_61hhv4j",      
-        "template_613t4xa",     //  EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "DQvyyUZdH0s8vDnRb"       //  EmailJS Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           toast.success("🎉 Message sent successfully!");
           form.current.reset();
-
-          // 🎊 Confetti blast
           confetti({
             particleCount: 120,
             spread: 80,
@@ -100,7 +98,6 @@ const Contact = () => {
 
         {/* Social Icons */}
         <div className="mt-8 flex justify-center gap-6 text-2xl text-cyan-400">
-          
           <a
             href="https://github.com/Ra786bajrangi"
             target="_blank"
