@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import image3 from "../assets/image3.jpg"
 const Home = () => {
   return (
@@ -64,9 +64,7 @@ const Home = () => {
           <a href="https://github.com/Ra786bajrangi" target="_blank" rel="noreferrer">
             <FaGithub className="hover:text-gray-300" />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">
-            <FaLinkedin className="hover:text-gray-300" />
-          </a>
+          
         </motion.div>
       </div>
     </section>

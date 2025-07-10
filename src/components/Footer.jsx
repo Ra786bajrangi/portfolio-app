@@ -15,14 +15,7 @@ const Footer = () => {
           >
             GitHub
           </a>
-          <a
-            href="https://linkedin.com/in/your-linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-cyan-400 transition"
-          >
-            LinkedIn
-          </a>
+          
           <a
             href="#contact"
             className="hover:text-cyan-400 transition"

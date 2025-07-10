@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -43,14 +43,7 @@ const Hero = () => {
           >
             <FaGithub />
           </a>
-          <a
-            href="https://linkedin.com/in/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-cyan-400 transition"
-          >
-            <FaLinkedin />
-          </a>
+          
         </motion.div>
 
         <motion.a

@@ -15,7 +15,7 @@ const projects = [
     description:
       "A modern blog CMS for posting, editing, and managing blogs with user authentication, role-based access, and MongoDB storage. Admins can manage posts and users, and readers can explore content with a clean UI.",
     tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB Atlas", "JWT"],
-    live: "https://your-lexora-blog.vercel.app",
+    live: "https://lexora-platform.vercel.app",
     github: "https://github.com/Ra786bajrangi/lexora-platform",
   },
   {
